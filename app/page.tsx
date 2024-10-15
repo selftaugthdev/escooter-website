@@ -46,10 +46,10 @@ const brands = [
   export default function HomePage() {
     return (
       <Layout>
-        <h2 className="text-3xl font-bold mb-6 text-center text-blue-800 dark:text-blue-300">Choose Your E-Scooter Brand</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center text-blue-800 dark:text-blue-300">Choose An E-Scooter Brand</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {brands.map((brand) => (
-            <Card key={brand.name} className="flex flex-col bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <Card key={brand.name} className="flex flex-col bg-white dark:bg-gray-700 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardHeader>
                 <CardTitle className="text-blue-700 dark:text-blue-300">{brand.name}</CardTitle>
               </CardHeader>
